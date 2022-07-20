@@ -18,12 +18,22 @@ The *trial_none* files contain only the instances and the *trial_gold* files con
 - /datasets/trial/tsar2022_pt_trial_gold.tsv
 
 
+Format of the trial_none files:
+
+
+| ----------- |
+| Sentence<TAB>ComplexWord |
+| ----------- |
+
+
+
+
 ### Test dataset 
 On 8th September we will release the test files (*test_none*) (with 369/376 instances) used for the evaluation benchmark:
--The *test_none* files contain the instances with the sentences and target complex words.
+The *test_none* files contain the instances with the sentences and target complex words.
 
-On 30th September (or sooner) we will release the results and the *test_gold* files (with 369/376 examples):
--test_gold with the sentences, target complex words, and gold annotations
+On 30th September (or sooner) we will release the results of the evaluation benchmark and the *test_gold* files (with 369/376 examples).
+The *test_gold* files contain the sentences, target complex words, and gold annotations
 
 ## Evaluation Scripts 
 (Avalaible on 22th July)
