@@ -7,7 +7,7 @@ Please look at the website of the Shared Task for more details about the Evaluat
 ## Datasets
 
 There is no training dataset for the TSAR-2022 Shared Task. 
-However, a sample of 10 or 12 instances with gold standard annotations will be provided as a trial dataset.
+However, a sample of 10 or 12 instances with gold standard annotations is provided here as a trial/sample dataset.
 <br/> 
 <br/> 
 Format of the files:
