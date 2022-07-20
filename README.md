@@ -1,5 +1,5 @@
-# TSAR-2022-Shared-Task
-TSAR2022 Shared Task on Lexical Simplification - Datasets and Evaluation scripts
+# TSAR-2022-Shared-Task Datasets and Evaluation Scripts
+TSAR2022 Shared Task on Lexical Simplification for English, Spanish and Portuguese - Datasets and Evaluation scripts
 
 ## Datasets
 
@@ -8,7 +8,14 @@ However, a sample of 10 or 12 instances with gold standard annotations will be p
 
 ### Trial dataset
 The trial dataset consists of a set of 10 instances (for English and Portuguese) and 12 instances (for English) of a sentence, a target complex word.
--The *trial_none* files contain only the instances and the *trial_gold* files contain the instances and set of gold annotations.
+The *trial_none* files contain only the instances and the *trial_gold* files contain the instances and set of gold annotations.
+
+- /datasets/trial/tsar2022_en_trial_none.tsv
+- /datasets/trial/tsar2022_en_trial_gold.tsv
+- /datasets/trial/tsar2022_es_trial_none.tsv
+- /datasets/trial/tsar2022_es_trial_gold.tsv
+- /datasets/trial/tsar2022_pt_trial_none.tsv
+- /datasets/trial/tsar2022_pt_trial_gold.tsv
 
 
 ### Test dataset 
