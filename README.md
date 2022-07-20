@@ -2,7 +2,7 @@
 TSAR2022 Shared Task on Lexical Simplification for English, Spanish and Portuguese - Datasets and Evaluation scripts
 
 Please look at the website of the Shared Task for more details about the Evaluation Benchmark, Guidelines, Registration Form, etc...
-[TSAR-2022 Shared-Task website](https://taln.upf.edu/pages/tsar2022-st/)
+<br/>[TSAR-2022 Shared-Task website](https://taln.upf.edu/pages/tsar2022-st/)
 
 ## Datasets
 
