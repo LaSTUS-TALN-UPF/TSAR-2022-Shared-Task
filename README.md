@@ -39,6 +39,44 @@ The *test_gold* files contain the sentences, target complex words, and gold anno
 
 ## Evaluation Scripts 
 
+### tsar_eval.py
+
+This script evaluates the following metric:
+
+    -  MAP@1/Potential@1/Precision@1
+    -  MAP@3
+    -  MAP@5
+    -  MAP@10
+    -  Potential@3
+    -  Potential@5
+    -  Potential@10
+    -  Accuracy@1@top_gold_1
+    -  Accuracy@2@top_gold_1
+    -  Accuracy@3@top_gold_1  
+      
+Script options and help
+
+```console
+Evaluation Script for the TSAR-2022 Lexical Simplification Shared Task
+
+Usage: tsar_eval.py <options>
+
+Options:
+  -h, --help            show this help message and exit
+  --gold_file=<PATH>    The path to the file with the gold annotated instances
+  --predictions_file=<PATH>
+                        The path to file with the predictions
+  --output_file=<PATH>  path to the output file
+  --verbose             Verbose output mode
+```
+
+
+usage example
+
+```console
+python3 ./tsar_eval.py --gold_file ./gold/tsar_es_gold.tsv --predictions_file ./predicted/TEAMNAME_TRACKNAME_RUNNAME.tsv  --output_file ./results/TEAMNAME_TRACKNAME_RUNNAME.tsv.eval
+```
+
 
 
 ## License
