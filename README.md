@@ -84,3 +84,7 @@ python3 ./tsar_eval.py --gold_file ./gold/tsar_es_gold.tsv --predictions_file ./
 The python scripts follow [AGPL 3.0v license](LICENSE).
 The datasets (under the /datasets directory) are licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License [CC-BY-NC-SA-4.0](CC-BY-NC-SA-4.0).
 
+## Contact
+https://taln.upf.edu/pages/tsar2022-st/#contact
+
+
