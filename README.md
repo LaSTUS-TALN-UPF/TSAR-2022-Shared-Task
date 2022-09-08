@@ -77,6 +77,17 @@ usage example
 python3 ./tsar_eval.py --gold_file ./gold/tsar_es_gold.tsv --predictions_file ./predicted/TEAMNAME_TRACKNAME_RUNNAME.tsv  --output_file ./results/TEAMNAME_TRACKNAME_RUNNAME.tsv.eval
 ```
 
+## Dataset Compilation and Baselines
+
+A paper describing the compilation of the datasets for English, Portuguese and Spanish that includes several experiments with 
+two state-of-the-art approaches for Lexical Simplification will be published soon at this link:
+https://www.frontiersin.org/articles/10.3389/frai.2022.991242
+
+[Lexical Simplification Benchmarks for English, Portuguese, and Spanish](https://www.frontiersin.org/articles/10.3389/frai.2022.991242).
+Sanja Štajner, Daniel Ferrés, Matthew Shardlow, Kai North, Marcos Zampieri and  Horacio Saggion.
+Front. Artif. Intell. Sec. Natural Language Processing. 
+doi: 10.3389/frai.2022.991242
+
 
 
 ## License
