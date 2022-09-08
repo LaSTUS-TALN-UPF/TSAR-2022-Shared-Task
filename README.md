@@ -83,9 +83,9 @@ A paper describing the compilation of the datasets for English, Portuguese and S
 two state-of-the-art approaches for Lexical Simplification will be published soon at this link:
 https://www.frontiersin.org/articles/10.3389/frai.2022.991242
 
-[Lexical Simplification Benchmarks for English, Portuguese, and Spanish](https://www.frontiersin.org/articles/10.3389/frai.2022.991242).
-Sanja Štajner, Daniel Ferrés, Matthew Shardlow, Kai North, Marcos Zampieri and  Horacio Saggion.
-Front. Artif. Intell. Sec. Natural Language Processing. 
+[Lexical Simplification Benchmarks for English, Portuguese, and Spanish](https://www.frontiersin.org/articles/10.3389/frai.2022.991242).<br/>
+Sanja Štajner, Daniel Ferrés, Matthew Shardlow, Kai North, Marcos Zampieri and  Horacio Saggion.<br/>
+Front. Artif. Intell. Sec. Natural Language Processing. <br/>
 doi: 10.3389/frai.2022.991242
 
 
