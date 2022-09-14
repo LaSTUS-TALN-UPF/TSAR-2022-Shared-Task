@@ -88,6 +88,7 @@ Sanja Štajner, Daniel Ferrés, Matthew Shardlow, Kai North, Marcos Zampieri and
 Front. Artif. Intell. Sec. Natural Language Processing. <br/>
 doi: 10.3389/frai.2022.991242
 
+Preprint available at ArXiV: [https://arxiv.org/abs/2209.05301](https://arxiv.org/abs/2209.05301)
 
 
 ## License
