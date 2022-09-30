@@ -31,11 +31,59 @@ The *trial_none* files contain only the instances and the *trial_gold* files con
 
 
 ### Test dataset 
-On 8 September we will release the test files (*test_none*) (with 369/376 instances) used for the evaluation benchmark:
-The *test_none* files contain the instances with the sentences and target complex words.
 
-On 30 September (or sooner) we will release the results of the evaluation benchmark and the *test_gold* files (with 369/376 examples).
+The *test_none* files (used for the evaluation benchmark) contain the instances with the sentences and target complex words.
+
+English test_none dataset (373 instances)
+/datasets/test/tsar2022_en_test_none.tsv  
+
+Spanish test_none dataset (368 instances)
+/datasets/test/tsar2022_es_test_none.tsv  
+
+Portuguese test_none dataset (374 instances)
+/datasets/test/tsar2022_pt_test_none.tsv
+
 The *test_gold* files contain the sentences, target complex words, and gold annotations
+
+English test_gold dataset (373 instances)
+/datasets/test/tsar2022_en_test_gold.tsv  
+
+Spanish test_gold dataset (368 instances)
+/datasets/test/tsar2022_es_test_gold.tsv  
+
+Portuguese test_gold dataset (374 instances)
+/datasets/test/tsar2022_pt_test_gold.tsv
+
+
+## Results of the Evaluation Benchmark
+
+The official results for each language (en, es, and pt) can be found in this directory:
+/results/official
+
+The following 10 metrics are reported in the official results:
+-  MAP@1/Potential@1/Precision@1
+-  MAP@3
+-  MAP@5
+-  MAP@10
+-  Potential@3
+-  Potential@5
+-  Potential@10
+-  Accuracy@1@top_gold_1
+-  Accuracy@2@top_gold_1
+-  Accuracy@3@top_gold_1 
+
+
+The extended results for each language (en, es, and pt) can be found in this directory:
+/results/extended
+
+The following metrics are reported in the extended results:
+    Potential@K  k={1..10}
+    MAP@K  k={1..10}
+    Precision@K  k={1..10}  (macro-average)
+    Recall@K  k={1..10}     (macro-average)
+    Accuracy@N@top_gold_1   k={1..10} 
+
+
 
 ## Evaluation Scripts 
 
