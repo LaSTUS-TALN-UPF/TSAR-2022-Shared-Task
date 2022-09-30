@@ -34,30 +34,30 @@ The *trial_none* files contain only the instances and the *trial_gold* files con
 
 The *test_none* files (used for the evaluation benchmark) contain the instances with the sentences and target complex words.
 
-English test_none dataset (373 instances)
+English test_none dataset (373 instances)<br/> 
 /datasets/test/tsar2022_en_test_none.tsv  
 
-Spanish test_none dataset (368 instances)
+Spanish test_none dataset (368 instances)<br/> 
 /datasets/test/tsar2022_es_test_none.tsv  
 
-Portuguese test_none dataset (374 instances)
+Portuguese test_none dataset (374 instances)<br/> 
 /datasets/test/tsar2022_pt_test_none.tsv
 
-The *test_gold* files contain the sentences, target complex words, and gold annotations
+The *test_gold* files contain the sentences, target complex words, and gold annotations<br/> 
 
-English test_gold dataset (373 instances)
+English test_gold dataset (373 instances)<br/> 
 /datasets/test/tsar2022_en_test_gold.tsv  
 
-Spanish test_gold dataset (368 instances)
+Spanish test_gold dataset (368 instances)<br/> 
 /datasets/test/tsar2022_es_test_gold.tsv  
 
-Portuguese test_gold dataset (374 instances)
+Portuguese test_gold dataset (374 instances)<br/> 
 /datasets/test/tsar2022_pt_test_gold.tsv
 
 
 ## Results of the Evaluation Benchmark
 
-The official results for each language (en, es, and pt) can be found in this directory:
+The official results for each language (en, es, and pt) can be found in this directory:<br/> 
 /results/official
 
 The following 10 metrics are reported in the official results:
@@ -73,15 +73,15 @@ The following 10 metrics are reported in the official results:
 -  Accuracy@3@top_gold_1 
 
 
-The extended results for each language (en, es, and pt) can be found in this directory:
-/results/extended
+The extended results for each language (en, es, and pt) can be found in this directory:<br/> 
+/results/extended<br/> 
 
 The following metrics are reported in the extended results:
-    Potential@K  k={1..10}
-    MAP@K  k={1..10}
-    Precision@K  k={1..10}  (macro-average)
-    Recall@K  k={1..10}     (macro-average)
-    Accuracy@N@top_gold_1   k={1..10} 
+-  Potential@K  K={1..10} 
+-  MAP@K  K={1..10}
+-  Precision@K  K={1..10}  (macro-average)
+-  Recall@K  K={1..10}     (macro-average)
+-  Accuracy@K@top_gold_1   K={1..10} 
 
 
 
