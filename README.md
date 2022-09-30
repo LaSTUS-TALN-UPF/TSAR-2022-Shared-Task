@@ -34,24 +34,24 @@ The *trial_none* files contain only the instances and the *trial_gold* files con
 
 The *test_none* files (used for the evaluation benchmark) contain the instances with the sentences and target complex words.
 
-English test_none dataset (373 instances)<br/> 
+- English test_none dataset (373 instances)<br/> 
 /datasets/test/tsar2022_en_test_none.tsv  
 
-Spanish test_none dataset (368 instances)<br/> 
+- Spanish test_none dataset (368 instances)<br/> 
 /datasets/test/tsar2022_es_test_none.tsv  
 
-Portuguese test_none dataset (374 instances)<br/> 
+- Portuguese test_none dataset (374 instances)<br/> 
 /datasets/test/tsar2022_pt_test_none.tsv
 
 The *test_gold* files contain the sentences, target complex words, and gold annotations<br/> 
 
-English test_gold dataset (373 instances)<br/> 
+- English test_gold dataset (373 instances)<br/> 
 /datasets/test/tsar2022_en_test_gold.tsv  
 
-Spanish test_gold dataset (368 instances)<br/> 
+- Spanish test_gold dataset (368 instances)<br/> 
 /datasets/test/tsar2022_es_test_gold.tsv  
 
-Portuguese test_gold dataset (374 instances)<br/> 
+- Portuguese test_gold dataset (374 instances)<br/> 
 /datasets/test/tsar2022_pt_test_gold.tsv
 
 
