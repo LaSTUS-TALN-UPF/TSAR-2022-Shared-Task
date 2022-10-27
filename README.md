@@ -128,7 +128,7 @@ python3 ./tsar_eval.py --gold_file ./gold/tsar_es_gold.tsv --predictions_file ./
 ## Dataset Compilation and Baselines
 
 A paper describing the compilation of the datasets for English, Portuguese and Spanish that includes several experiments with 
-two state-of-the-art approaches for Lexical Simplification will be published soon at this link:
+two state-of-the-art approaches for Lexical Simplification has been published at this link:
 https://www.frontiersin.org/articles/10.3389/frai.2022.991242
 
 [Lexical Simplification Benchmarks for English, Portuguese, and Spanish](https://www.frontiersin.org/articles/10.3389/frai.2022.991242).<br/>
